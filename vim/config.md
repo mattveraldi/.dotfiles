@@ -4,3 +4,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## Tmux package manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+## For prettier to work 
+npm i -g prettier
