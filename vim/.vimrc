@@ -12,6 +12,7 @@ Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'eslint/eslint'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
@@ -23,10 +24,6 @@ colorscheme material
 
 "" Install coc tsserver for typescript autocompletion
 let g:coc_global_extensions = [ 'coc-tsserver' ]
-
-"" CoC settings
-"" Show autocomplete when Tab is pressed
-inoremap <silent><expr> <Tab> coc#refresh()
 
 "" GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
